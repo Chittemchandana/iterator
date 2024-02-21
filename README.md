@@ -1,5 +1,5 @@
 # iterator
-#The next() function
+# The next() function
 # define a list
 my_list = [4, 7, 0]
 
@@ -16,7 +16,7 @@ print(next(iterator))  # prints 7
 print(next(iterator))  # prints 0
 
 
-#Working of for loop for Iterators
+# Working of for loop for Iterators
 # create a list of integers
 my_list = [1, 2, 3, 4, 5]
 
@@ -30,7 +30,7 @@ for element in iterator:
     print(element)
 
 
-#Building Custom Iterators __iter__() and the __next__()
+# Building Custom Iterators __iter__() and the __next__()
 class PowTwo:
     """Class to implement an iterator
     of powers of two"""
@@ -65,7 +65,7 @@ print(next(i)) # prints 8
 print(next(i)) # raises StopIteration exception
 
 
-#Python Infinite Iterators
+# Python Infinite Iterators
 from itertools import count
 # create an infinite iterator that starts at 1 and increments by 1 each time
 infinite_iterator = count(1)
